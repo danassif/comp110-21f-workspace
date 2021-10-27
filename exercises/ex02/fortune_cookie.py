@@ -13,3 +13,20 @@ from random import randint
 
 
 # Begin your solution here...
+awesome: str = "You are so so awesome!"
+joy: str = "You will have much joy in your life"
+lottery: str = "You should play the lottery soon ;)"
+friend: str = "You will find a new friend soon"
+number: int = randint(1, 4)
+print("Your fortune cookie says...")
+if number == 1:
+    print(awesome)
+else:
+    if number == 2:
+        print(joy)
+    else:
+        if number == 3:
+            print(lottery)
+        else:
+            print(friend)
+print("Now, go spread some positive vibes!")
